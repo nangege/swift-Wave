@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8769C4E3-5979-442D-9334-3DE5B272CE5B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift-Waver</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AE6957797AC6EBA67EB4F3272DD6A69FE8B7347D</key>
+		<string>https://github.com/nangege/swift-Wave.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Swift-Waver.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AE6957797AC6EBA67EB4F3272DD6A69FE8B7347D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nangege/swift-Wave.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AE6957797AC6EBA67EB4F3272DD6A69FE8B7347D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AE6957797AC6EBA67EB4F3272DD6A69FE8B7347D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift-Wave</string>
+		</dict>
+	</array>
+</dict>
+</plist>

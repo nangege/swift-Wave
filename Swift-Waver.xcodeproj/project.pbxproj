@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9FE66351A465B9D006B8573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE66341A465B9D006B8573 /* AppDelegate.swift */; };
+		E9FE66371A465B9D006B8573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE66361A465B9D006B8573 /* ViewController.swift */; };
+		E9FE663A1A465B9D006B8573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9FE66381A465B9D006B8573 /* Main.storyboard */; };
+		E9FE663C1A465B9D006B8573 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FE663B1A465B9D006B8573 /* Images.xcassets */; };
+		E9FE663F1A465B9D006B8573 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FE663D1A465B9D006B8573 /* LaunchScreen.xib */; };
+		E9FE664B1A465B9D006B8573 /* Swift_WaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE664A1A465B9D006B8573 /* Swift_WaverTests.swift */; };
+		E9FE665B1A46EFBD006B8573 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FE665A1A46EFBD006B8573 /* Wave.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9FE66451A465B9D006B8573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9FE66271A465B9D006B8573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9FE662E1A465B9D006B8573;
+			remoteInfo = "Swift-Waver";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9FE662F1A465B9D006B8573 /* Swift-Waver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Waver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE66331A465B9D006B8573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FE66341A465B9D006B8573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9FE66361A465B9D006B8573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9FE66391A465B9D006B8573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9FE663B1A465B9D006B8573 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9FE663E1A465B9D006B8573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E9FE66441A465B9D006B8573 /* Swift-WaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-WaverTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FE66491A465B9D006B8573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FE664A1A465B9D006B8573 /* Swift_WaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_WaverTests.swift; sourceTree = "<group>"; };
+		E9FE665A1A46EFBD006B8573 /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9FE662C1A465B9D006B8573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE66411A465B9D006B8573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9FE66261A465B9D006B8573 = {
+			isa = PBXGroup;
+			children = (
+				E9FE66311A465B9D006B8573 /* Swift-Waver */,
+				E9FE66471A465B9D006B8573 /* Swift-WaverTests */,
+				E9FE66301A465B9D006B8573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FE66301A465B9D006B8573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE662F1A465B9D006B8573 /* Swift-Waver.app */,
+				E9FE66441A465B9D006B8573 /* Swift-WaverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FE66311A465B9D006B8573 /* Swift-Waver */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE665A1A46EFBD006B8573 /* Wave.swift */,
+				E9FE66341A465B9D006B8573 /* AppDelegate.swift */,
+				E9FE66361A465B9D006B8573 /* ViewController.swift */,
+				E9FE66381A465B9D006B8573 /* Main.storyboard */,
+				E9FE663B1A465B9D006B8573 /* Images.xcassets */,
+				E9FE663D1A465B9D006B8573 /* LaunchScreen.xib */,
+				E9FE66321A465B9D006B8573 /* Supporting Files */,
+			);
+			path = "Swift-Waver";
+			sourceTree = "<group>";
+		};
+		E9FE66321A465B9D006B8573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE66331A465B9D006B8573 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9FE66471A465B9D006B8573 /* Swift-WaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE664A1A465B9D006B8573 /* Swift_WaverTests.swift */,
+				E9FE66481A465B9D006B8573 /* Supporting Files */,
+			);
+			path = "Swift-WaverTests";
+			sourceTree = "<group>";
+		};
+		E9FE66481A465B9D006B8573 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FE66491A465B9D006B8573 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9FE662E1A465B9D006B8573 /* Swift-Waver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE664E1A465B9D006B8573 /* Build configuration list for PBXNativeTarget "Swift-Waver" */;
+			buildPhases = (
+				E9FE662B1A465B9D006B8573 /* Sources */,
+				E9FE662C1A465B9D006B8573 /* Frameworks */,
+				E9FE662D1A465B9D006B8573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-Waver";
+			productName = "Swift-Waver";
+			productReference = E9FE662F1A465B9D006B8573 /* Swift-Waver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9FE66431A465B9D006B8573 /* Swift-WaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FE66511A465B9D006B8573 /* Build configuration list for PBXNativeTarget "Swift-WaverTests" */;
+			buildPhases = (
+				E9FE66401A465B9D006B8573 /* Sources */,
+				E9FE66411A465B9D006B8573 /* Frameworks */,
+				E9FE66421A465B9D006B8573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9FE66461A465B9D006B8573 /* PBXTargetDependency */,
+			);
+			name = "Swift-WaverTests";
+			productName = "Swift-WaverTests";
+			productReference = E9FE66441A465B9D006B8573 /* Swift-WaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9FE66271A465B9D006B8573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = dreamer.nange;
+				TargetAttributes = {
+					E9FE662E1A465B9D006B8573 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E9FE66431A465B9D006B8573 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E9FE662E1A465B9D006B8573;
+					};
+				};
+			};
+			buildConfigurationList = E9FE662A1A465B9D006B8573 /* Build configuration list for PBXProject "Swift-Waver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9FE66261A465B9D006B8573;
+			productRefGroup = E9FE66301A465B9D006B8573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9FE662E1A465B9D006B8573 /* Swift-Waver */,
+				E9FE66431A465B9D006B8573 /* Swift-WaverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9FE662D1A465B9D006B8573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE663A1A465B9D006B8573 /* Main.storyboard in Resources */,
+				E9FE663F1A465B9D006B8573 /* LaunchScreen.xib in Resources */,
+				E9FE663C1A465B9D006B8573 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE66421A465B9D006B8573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9FE662B1A465B9D006B8573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE66371A465B9D006B8573 /* ViewController.swift in Sources */,
+				E9FE665B1A46EFBD006B8573 /* Wave.swift in Sources */,
+				E9FE66351A465B9D006B8573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9FE66401A465B9D006B8573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FE664B1A465B9D006B8573 /* Swift_WaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9FE66461A465B9D006B8573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9FE662E1A465B9D006B8573 /* Swift-Waver */;
+			targetProxy = E9FE66451A465B9D006B8573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9FE66381A465B9D006B8573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FE66391A465B9D006B8573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9FE663D1A465B9D006B8573 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FE663E1A465B9D006B8573 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9FE664C1A465B9D006B8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9FE664D1A465B9D006B8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9FE664F1A465B9D006B8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Waver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9FE66501A465B9D006B8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift-Waver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9FE66521A465B9D006B8573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-WaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Waver.app/Swift-Waver";
+			};
+			name = Debug;
+		};
+		E9FE66531A465B9D006B8573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-WaverTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-Waver.app/Swift-Waver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9FE662A1A465B9D006B8573 /* Build configuration list for PBXProject "Swift-Waver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE664C1A465B9D006B8573 /* Debug */,
+				E9FE664D1A465B9D006B8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FE664E1A465B9D006B8573 /* Build configuration list for PBXNativeTarget "Swift-Waver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE664F1A465B9D006B8573 /* Debug */,
+				E9FE66501A465B9D006B8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FE66511A465B9D006B8573 /* Build configuration list for PBXNativeTarget "Swift-WaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FE66521A465B9D006B8573 /* Debug */,
+				E9FE66531A465B9D006B8573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9FE66271A465B9D006B8573 /* Project object */;
+}
